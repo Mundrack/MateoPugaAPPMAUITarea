@@ -10,7 +10,7 @@
     <TabBar>
         <ShellContent
             Title="MateoPugaAPPMAUI"
-            ContentTemplate="{DataTemplate views:MPNotePage}"
+            ContentTemplate="{DataTemplate views:MPAllNotesPage}"
             Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}" />
 
         <ShellContent
