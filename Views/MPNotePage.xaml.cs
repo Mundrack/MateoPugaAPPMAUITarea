@@ -1,5 +1,4 @@
-namespace MateoPugaAPPMAUI;
-
+namespace Notes.Views;
 public partial class MPNotePage : ContentPage
 {
     string _fileName = Path.Combine(FileSystem.AppDataDirectory, "notes.txt");

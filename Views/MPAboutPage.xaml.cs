@@ -1,4 +1,4 @@
-namespace MateoPugaAPPMAUI;
+namespace Notes.Views;
 
 public partial class MPAboutPage : ContentPage
 {
