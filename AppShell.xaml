@@ -9,12 +9,12 @@
 
     <TabBar>
         <ShellContent
-            Title="Notes"
+            Title="MateoPugaAPPMAUI"
             ContentTemplate="{DataTemplate views:MPNotePage}"
             Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}" />
 
         <ShellContent
-            Title="About"
+            Title="MPAbout"
             ContentTemplate="{DataTemplate views:MPAboutPage}"
             Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
     </TabBar>
