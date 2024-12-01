@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MateoPugaAPPMAUI.Models
 {
-    internal class About
+    internal class MPAbout
     {
         public string Title => AppInfo.Name;
         public string Version => AppInfo.VersionString;

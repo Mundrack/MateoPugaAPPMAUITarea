@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MateoPugaAPPMAUI.Models
 {
-    internal class Note
+    internal class MPNote
     {
         public string Filename { get; set; }
         public string Text { get; set; }

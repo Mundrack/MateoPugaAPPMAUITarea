@@ -28,7 +28,7 @@ public partial class MPNotePage : ContentPage
     }
     private void LoadNote(string fileName)
     {
-        Models.Note noteModel = new Models.Note();
+        Models.MPNote noteModel = new Models.MPNote();
         noteModel.Filename = fileName;
 
         if (File.Exists(fileName))
